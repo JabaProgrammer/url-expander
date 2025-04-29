@@ -5,7 +5,7 @@ import requests, argparse, sys, os, concurrent.futures
 from functools import partial
 
 try:
-    from tqdm import tqdm;
+    from tqdm import tqdm
 
     TQDM_AVAILABLE = True
 except ImportError:
@@ -14,7 +14,7 @@ try:
     import colorama
     from colorama import Fore, Style
 
-    colorama.init(autoreset=True);
+    colorama.init(autoreset=True)
     COLORAMA_AVAILABLE = True
 except ImportError:
     COLORAMA_AVAILABLE = False
