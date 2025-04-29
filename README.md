@@ -91,5 +91,3 @@ SOCKS proxies require:
 ```bash
 pip install requests[socks]
 ```
-
----
